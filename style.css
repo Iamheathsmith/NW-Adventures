@@ -34,11 +34,11 @@ body {
   font-family: 'Bangers', cursive;
 }
 
-.saying {
+.under-name {
   margin-top: 25px;
 }
 
-.saying {
+.under-name {
   margin-top: 25px;
   font-family: 'Special Elite', cursive;
   margin-left: 20px;
@@ -100,12 +100,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-.content {
-  padding: 30px;
-  float: right;
-  margin-right: 30px;
-}
-
 h3 {
   font-size: 18px;
   font-family: 'Architects Daughter', cursive;
@@ -147,3 +141,123 @@ h3 {
   font-family: 'Stint Ultra Expanded', cursive;
   text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;
 }
+
+.img {
+  border-radius: 50%;
+  width: 75px;
+}
+
+#review {
+  float: left;
+}
+
+.reviews {
+  width: 350px;
+  margin-left: 40px;
+  float: left;
+  margin-top: 60px;
+}
+ .tag-line {
+   width: 240px;
+   margin-left: 10px;
+   display: inline-block;
+   font-size: 30px;
+   font-family: 'Bangers', cursive;
+
+ }
+
+ .by{
+   margin-top: 10px;
+   clear: both;
+   float: right;
+   margin-right: 60px;
+   margin-bottom: 20px;
+   font-family: 'Special Elite', cursive;
+   font-size: 14px;
+ }
+
+ .saying {
+  text-indent: 30px;
+  line-height: 20px;
+  float: left;
+  font-family: 'Stint Ultra Expanded';
+  margin-bottom: 60px;
+ }
+
+ #tours {
+   float: left;
+ }
+
+ .tours {
+   width: 500px;
+   display: inline-block;
+   margin-left: 60px;
+   margin-bottom: 60px;
+ }
+
+ .tour-image {
+   width: 260px;
+   border-radius: 5px;
+   box-shadow: 0px 0px 4px 1px #222;
+ }
+ .tours-last {
+   width: 900px;
+   display: inline-block;
+   margin-left: 60px;
+   margin-bottom: 60px;
+ }
+
+ .tour-image-last {
+   width: 500px;
+   border-radius: 5px;
+   box-shadow: 0px 0px 4px 1px #222;
+   margin-bottom: 80px;
+ }
+
+ .info-last {
+   margin-left: 30px;
+   width: 300px;
+   display: inline-block;
+   margin-bottom: 80px;
+   vertical-align: top;
+ }
+
+.info {
+  float: right;
+  width: 200px;
+}
+
+ .tour-name {
+   margin-top: 20px;
+   display: inline-block;
+   vertical-align: top;
+   font-size: 30px;
+   margin-bottom: 10px;
+   font-family: 'Bangers', cursive;
+ }
+
+ .tour-price {
+   display: inline-block;
+   font-size: 16px;
+   margin-bottom: 20px;
+   font-family: 'Special Elite', cursive;
+ }
+
+ .about-tour {
+   font-family: 'Stint Ultra Expanded';
+   font-size: 14px;
+   line-height: 18px;
+ }
+
+ .Events {
+   display: block;
+   margin: 0 auto;
+
+   height: 800px
+ }
+
+ footer {
+   height: 120px;
+   background-image:url(Images/Header.png);
+   clear: both;
+ }

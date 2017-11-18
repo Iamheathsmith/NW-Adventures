@@ -80,10 +80,11 @@ ul li:hover {
 }
 
 .carousel {
-  margin: 0 auto;
+  margin-left: 50px;
   width: 700px;
   height: 465px;
   box-shadow: 0px 0px 4px 1px #222;
+  display: inline-block;
 }
 
 h2 {
@@ -100,13 +101,6 @@ h2 {
   margin-right: 30px;
 }
 
-iframe {
-  width: 800px;
-  height: 440px;
-  margin-top: 40px;
-  margin-right: 30px;
-}
-
 h3 {
   font-size: 18px;
   font-family: 'Hind', sans-serif;
@@ -114,11 +108,36 @@ h3 {
 }
 
 .left_sideBar {
-  float: left;
-  margin-top: 30px;
-  margin-right: 30px;
+  float: right;
+  margin-right: 50px;
 }
 
-.left_sideBar img {
-  margin-top: 10px;
+.flyer {
+  width: 340px;
+  height: 470px;
+  background-color: #b8dfef;
+  margin-top: -5px;
+  text-align: center;
+  padding: 30px 20px;
+  line-height: 54px;
+  color: white;
+  border: 20px solid #92c3dc;
+  border-radius: 3px;
+  text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+
+.flyer h4 {
+  font-size: 50px;
+  font-family: 'Courgette', cursive;
+}
+
+.flyer h5 {
+  font-size: 28px;
+  font-family: 'Stardos Stencil', cursive;
+  text-decoration: underline;
+}
+
+.flyer h6 {
+  font-size: 20px;
+  font-family: 'Stint Ultra Expanded', cursive;
 }

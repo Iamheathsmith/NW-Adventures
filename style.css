@@ -45,6 +45,16 @@ body {
   font-size: 16px
 }
 
+.social {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.iconsLook {
+  font-size: 30px;
+}
+
 .navbar {
   margin-top: 60px;
   float: right;
@@ -64,6 +74,16 @@ body {
 ul li:hover {
   color: red;
   text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;
+  opacity: 1.0;
+  text-decoration: none;
+}
+
+.not-picked {
+  opacity: .5;
+}
+
+.picked {
+  text-decoration: underline red;
 }
 
 
@@ -239,6 +259,7 @@ h3 {
    display: inline-block;
    font-size: 16px;
    margin-bottom: 20px;
+   color: #92c3dc;
    font-family: 'Special Elite', cursive;
  }
 

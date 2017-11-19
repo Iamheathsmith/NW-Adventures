@@ -207,6 +207,13 @@ h3 {
    float: left;
  }
 
+.about-us {
+  font-size: 34px;
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  margin: 30px 60px;
+}
+
  .tours {
    width: 500px;
    display: inline-block;

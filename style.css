@@ -252,9 +252,97 @@ h3 {
  .Events {
    display: block;
    margin: 0 auto;
-
-   height: 800px
+   height: 850px;
  }
+
+ #contact-page {
+   display: inline-block;
+   width: 100%;
+   float: left;
+   margin-bottom: 20px;
+ }
+
+.join {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: 'Bangers', cursive;
+}
+ .contact-info {
+   display: inline-block;
+   width: 260px;
+   margin: 20px;
+   padding: 20px;
+   height: 280px;
+   margin-left: 60px;
+   background-color: #b8dfef;
+   border-radius: 4px;
+   font-family: 'Stint Ultra Expanded';
+   line-height: 18px;
+ }
+
+ .where {
+   font-family: 'Bangers', cursive;
+   font-size: 30px;
+   margin-bottom: 20px;
+ }
+
+ .when {
+   font-family: 'Bangers', cursive;
+   font-size: 30px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+ }
+
+.contact-phone {
+  display: inline-block;
+  float: right;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #b8dfef;
+  height: 280px;
+  border-radius: 4px;
+}
+
+.contact-us {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Special Elite', cursive;
+}
+
+.form {
+  float: right;
+  margin-top: 20px;
+  margin-right: 30px;
+  height: 280px;
+  display: inline-block;
+  width: 500px;
+  background-color: #b8dfef;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.form-input {
+  width: 100%;
+  margin: 5px;
+}
+
+textarea {
+  width: 100%;
+  margin: 5px;
+  height: 100px;
+}
+
+.dune {
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border: 20px solid #92c3dc;
+  box-shadow: 0px 0px 4px 1px #222;
+}
+
 
  footer {
    height: 120px;

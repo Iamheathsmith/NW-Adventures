@@ -12,7 +12,7 @@ body {
   background-image:url(Images/Header.png);
   position: relative;
   box-shadow: 0px 0px 4px 1px #222;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .logo-right {
@@ -96,7 +96,14 @@ ul li:hover {
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
 
+.opening-saying {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: 'Bangers', cursive;
+  margin-top: 20px;
 }
 
 .d-block {

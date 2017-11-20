@@ -1,9 +1,11 @@
 /* app styles */
 
 body {
-  margin-left: calc(50% - 600px);
+  display: block;
+  margin: 0 auto;
   width: 1200px;
 }
+
 
 .header {
   height: 120px;
@@ -176,6 +178,7 @@ h3 {
   float: left;
   margin-top: 60px;
 }
+
  .tag-line {
    width: 240px;
    margin-left: 10px;
